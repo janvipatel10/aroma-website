@@ -404,3 +404,26 @@ backface-visibility: hidden;
     backface-visibility: hidden;
     
 }
+/*mobile*/
+*{ box-sizing: border-box; }
+ img { max-width: 100%; }
+  @media (max-width: 600px) 
+  { body
+    {
+    margin: 0;
+     overflow-x: hidden;
+    } 
+    nav { flex-wrap: wrap; 
+      justify-content: center;
+       gap: 12px; }
+        section { padding: 20px 12px; }
+         h1 { font-size: 28px; }
+          h2 { font-size: 22px; } 
+          .middle-content, .contact-container, 
+          .best-cards { flex-wrap: wrap; justify-content: center; }
+           .about-img, .story, .contact-info,
+            .contact-form { width: 100%; } 
+            .slider img { width: 48%; height: 200px; flex-shrink: 0; }
+             .card { width: 45%; height: 280px; }
+              .card-front img { height: 170px; } }
+
